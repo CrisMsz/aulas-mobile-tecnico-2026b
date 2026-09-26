@@ -10,13 +10,13 @@ export default function Inicio() {
       <View style={styles.cabecalho}>
         <View style={styles.avatar} />
         <View>
-          <Text style={styles.saudacao}>Ola porra</Text>
-          <Text style={styles.subtitulo}>Selecione uma atividade</Text>
+          <Text style={styles.saudacao}>Olá, caro apreciador das profissionais da lúxuria</Text>
+          <Text style={styles.subtitulo}>Selecione um serviço</Text>
         </View>
       </View>
 
       <View style={styles.cartao}>
-        <Text style={styles.cartaoTitulo}>Lista de Itens</Text>
+        <Text style={styles.cartaoTitulo}>Cadastro das profissionais</Text>
         <Text style={styles.detalhe}>
           Atividade aula 09.
         </Text>
@@ -24,6 +24,15 @@ export default function Inicio() {
           Abrir lista →
         </Link>
       </View>
+
+<View style={styles.cartao}>
+        <Text style={styles.cartaoTitulo}>Cadastro e listagem das profissionais</Text>
+        <Text style={styles.detalhe}>Nomes listados das profissionais.</Text>
+        <Link href="/lista-db" style={styles.link}>
+          Abrir lista no banco →
+        </Link>
+      </View>
+
     </SafeAreaView>
   );
 }
