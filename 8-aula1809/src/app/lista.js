@@ -15,7 +15,6 @@ export default function Lista() {
   return (
     <SafeAreaView style={styles.tela} edges={["bottom"]}>
       <Stack.Screen options={{ title: "Minhas tarefas" }} />
-
       <TextInput
         style={styles.campo}
         value={texto}
